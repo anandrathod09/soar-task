@@ -1,18 +1,71 @@
-## React - Installation
 
-You'll need to install Node.js >=v14.16+ (Recommended Version) (NPM comes along with it) and **Vite** for frontend tooling, to peform installation and building production version, please follow these steps from below:
+# React Application Setup and Installation
 
-- Use terminal and navigate to the project root directory.
+This guide provides instructions for installing and running a React project built with **Vite**. Follow the steps below to set up the development environment, run the application, and build the production version.
 
-- Then run : <code>npm install</code>
+---
 
-- Then run : <code>npm run dev</code>
+## Prerequisites
 
-Now, in the browser go to <code>localhost:5173</code>
+Ensure that you have the following installed on your machine:
 
-**For Production Build**
-Run : <code>npm run build</code>
+- **Node.js**: Version >= 14.16 (Recommended Version). [Download Node.js here](https://nodejs.org/)
+- **NPM**: Comes pre-installed with Node.js.
+- **Vite**: The development tooling used for this project.
 
-Default build output directory: /dist
+---
 
-This command will generate a dist as build folder in the root of your template that you can upload to your server.
+## Installation Steps
+
+1. **Navigate to the Project Directory**  
+   Open a terminal and move to the root directory of the project:
+
+   ```bash
+   cd /path/to/project
+   ```
+
+2. **Install Dependencies**  
+   Run the following command to install all the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**  
+   Use the following command to start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the Application**  
+   Open your browser and navigate to:
+
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## Building the Production Version
+
+To generate a production-ready build of the application, follow these steps:
+
+1. Run the build command:
+
+   ```bash
+   npm run build
+   ```
+
+2. **Output Directory**  
+   The production build files will be located in the `/dist` directory in the project root.
+
+3. **Deploying to a Server**  
+   Upload the contents of the `/dist` directory to your web server for deployment.
+
+---
+
+### Notes
+
+- For additional configuration or troubleshooting, refer to the documentation for [Vite](https://vitejs.dev/).
+- Ensure that your server is configured to serve static files from the `/dist` directory if deploying to production.
