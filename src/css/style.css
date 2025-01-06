@@ -207,7 +207,10 @@ aside nav li a {
   box-shadow: -10px 0 0 #3c50e0;
 }
 
-
 input[type="search"]::-webkit-search-cancel-button {
   @apply appearance-none;
+}
+
+.border-meta-1 {
+  border-color: #DC3545 !important;
 }
