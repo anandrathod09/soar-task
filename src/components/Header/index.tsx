@@ -94,7 +94,7 @@ const Header = (props: {
 
         {/* Search bar and dropdown menus */}
         <div className="items-stretch flex gap-3 2xsm:gap-7">
-          <div className="absolute left-0 right-0 top-full flex px-[25px] sm:relative sm:px-0">
+          <div className="absolute left-0 right-0 top-full flex px-[25px] sm:relative sm:px-0 bg-white">
             <form className="flex-1" action="">
               <div className="relative">
                 <button
